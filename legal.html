@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>TransPositive Legal</title>
+		<link rel="stylesheet" href="legalStyles.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <section id="header">
+            <a href="index.html"><img src="img/transpos - Copy.png" width="50%"></a>
+            <h1>Laws</h1>
+        </section>
+        <section id="lawdict">
+            <h2>Select your state to find the laws that apply to you.</h2>
+            <form class="stateselection" onsubmit="return false">
+                <select id="states">
+                    <option value="alabama">Alabama</option>
+                    <option value="alaska">Alaska</option>
+                    <option value="arizona">Arizona</option>
+                    <option value="arkansas">Arkansas</option>
+                    <option value="california">California</option>
+                    <option value="colorado">Colorado</option>
+                    <option value="connecticut">Connecticut</option>
+                    <option value="delaware">Delaware</option>
+                    <option value="florida">Florida</option>
+                    <option value="georgia">Georgia</option>
+                    <option value="hawaii">Hawaii</option>
+                    <option value="idaho">Idaho</option>
+                    <option value="illinois">Illinois</option>
+                    <option value="indiana">Indiana</option>
+                    <option value="iowa">Iowa</option>
+                    <option value="kansas">Kansas</option>
+                    <option value="kentucky">Kentucky</option>
+                    <option value="louisiana">Louisiana</option>
+                    <option value="maine">Maine</option>
+                    <option value="maryland">Maryland</option>
+                    <option value="massachusetts">Massachusetts</option>
+                    <option value="michigan">Michigan</option>
+                    <option value="minnesota">Minnesota</option>
+                    <option value="mississippi">Mississippi</option>
+                    <option value="missouri">Missouri</option>
+                    <option value="montana">Montana</option>
+                    <option value="nebraska">Nebraska</option>
+                    <option value="nevada">Nevada</option>
+                    <option value="new hampshire">New Hampshire</option>
+                    <option value="new jersey">New Jersey</option>
+                    <option value="new mexico">New Mexico</option>
+                    <option value="new york">New York</option>
+                    <option value="north carolina">North Carolina</option>
+                    <option value="north dakota">North Dakota</option>
+                    <option value="ohio">Ohio</option>
+                    <option value="oklahoma">Oklahoma</option>
+                    <option value="oregon">Oregon</option>
+                    <option value="pennsylvania">Pennsylvania</option>
+                    <option value="rhode island">Rhode Island</option>
+                    <option value="south carolina">South Carolina</option>
+                    <option value="south dakota">South Dakota</option>
+                    <option value="tennessee">Tennessee</option>
+                    <option value="texas">Texas</option>
+                    <option value="utah">Utah</option>
+                    <option value="vermont">Vermont</option>
+                    <option value="virginia">Virginia</option>
+                    <option value="washington">Washington</option>
+                    <option value="west virginia">West Virginia</option>
+                </select>
+                <input type="submit" class="go" value="go" onclick="searchLaws()">
+            </form>
+
+            <div class="result">
+                <p id="legality">Hormone therapy and surgery for trans youth is illegal [03/10/2021]. Those who have transitioned may request an amended birth certificate.</p>
+            </div>
+        </section>
+        <script src="legal.js"></script>
+    </body>
+</html>

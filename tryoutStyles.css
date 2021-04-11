@@ -1,0 +1,64 @@
+body > *{
+    font-family: Montserrat, sans-serif;
+}
+
+#header {
+    display: flex;
+    margin: 20px;
+    justify-content: space-evenly;
+    padding: 16px 40px 16px 40px;
+}
+#header > h1 {
+    display: inline;
+    font-size: 15vh;
+    justify-content: center;
+    align-content: center;
+}
+#header > h2 {
+    display: inline;
+    font-size: 13vh;
+    justify-content: center;
+    align-content: center;
+}
+
+.pronouns {
+    display: flex;
+    justify-content: center;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.container > div {
+    padding-left: 20px;
+}
+
+label {
+    font-size: 2vh;
+    padding-bottom: 10px;
+}
+
+input {
+    padding: 12px 20px;
+    font-family: Montserrat, sans-serif;
+}
+
+input[type=submit] {
+    width: 300px;
+    background-color: rgb(0, 178, 209);
+    color: white;
+    border-radius: 4px;
+    border: none;
+    margin: 20px;
+    transition: 0.5s;
+}
+
+input[type=submit]:hover {
+    opacity: 0.5;
+}
+
+.result > h2 {
+    text-align: center;
+    font-size: 3em;
+}

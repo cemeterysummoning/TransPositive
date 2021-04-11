@@ -1,0 +1,272 @@
+* {
+	box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:space-between;
+   
+   
+    margin: 0;
+    padding:0;
+    min-height: 100vh;
+	
+}
+
+body > * {
+	
+	align-items: center;
+	justify-content: center;
+}
+
+
+header {
+	height: 10vh;
+	line-height: 10vh;
+	font-size: 10vh;
+}
+
+main {
+	height: 80vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	font-size: 10vh;
+}
+
+h1 {
+	font-size: 80px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+footer {
+	height: 10vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	color: gray;
+	font-size: 14px;
+}
+
+nav {
+	color: black;
+	background-color: white;
+	height: 80px;
+	width: 100%;
+	
+	
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+nav > a {
+	color: black;
+	margin: 0 10px;
+	text-decoration: none;
+	font-size: 2vh;
+	transition: 0.5s;
+}
+a:hover {
+	
+	color: rgb(0, 178, 209);
+	opacity: 0.4;
+	
+}
+.sticky {
+	position: sticky;
+	top: 0;
+}
+
+
+#header {
+	color: white;
+	background-color: rgb(0, 178, 209);
+	min-height: 400px;
+    display: flex;
+	width: 100%;
+	text-align: left;
+	font-size: 10vh;
+	justify-content: center;
+	padding-left: 0;
+}
+#header > img {
+    width: 50%;
+    float: left;
+}
+#header > div {
+	padding: 16px 40px 16px 40px;
+	margin: 20px;
+    width: 50%;
+    float: left;
+}
+#header > div > h2 {
+	padding-top: 5vh;
+	margin: 0;
+}
+#header > div > p {
+	font-size: 5vh;
+	
+}
+
+#news {
+	color: white;
+	background-color: rgb(245, 48, 219);
+	min-height: 400px;
+	width: 100%;
+	text-align: right;
+	font-size: 10vh;
+	justify-content: center;
+    padding-right: 0;
+    display: flex;
+    
+}
+#news > #text {
+    padding: 16px 40px 16px 0px;
+    margin: 20px;
+    width: 65%
+}
+a {
+    color: white;
+    text-decoration: none;
+	transition: 0.4s;
+}
+#news > img {
+    padding-left: 40px;
+    padding-right: 0px;
+    width: 35%;
+}
+
+#resources {
+	color: black;
+	background-color: white;
+	min-height: 400px;
+	width: 100%;
+	font-size: 10vh;
+	text-align: left;
+    justify-content: center;
+    padding-left: 0;
+}
+#resources > div {
+    padding: 16px 40px 16px 40px;
+    margin: 20px;
+}
+#resources > div > h2 {
+	margin: 20px;
+	padding-top: 20px;
+	margin-bottom: 0px;
+}
+#buttons {
+	width: 100%;
+	padding-top: 0px;
+	margin-bottom: 20px;
+}
+#buttons button {
+	border-radius: 4px;
+	background-color:rgb(0, 178, 209);
+	border: none;
+	color: white;
+	font-size: 4vh;
+	text-align: center;
+	padding: 20px;
+	width: 30%;
+	transition: 0.5s;
+}
+#buttons button:hover {
+	opacity: 0.5;
+}
+
+#tools {
+	color: white;
+	background-color: rgb(245, 48, 219);
+	min-height: 400px;
+	width: 100%;
+	font-size: 10vh;
+    text-align: right;
+    justify-content: center;
+    padding-right: 0;
+}
+#tools > div {
+    padding: 16px 40px 16px 40px;
+    margin: 20px;
+}
+#tools > div > h2 {
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+#tools > div > p {
+	font-size: 5vh;
+	margin: 0px;
+	display: inline;
+}
+#bind > a> button {
+	border-radius: 4px;
+	background-color:rgb(0, 178, 209);
+	border: none;
+	color: white;
+	font-size: 4vh;
+	text-align: center;
+	padding: 20px;
+	width: 30%;
+	transition: 0.5s;
+}
+#bind button:hover {
+	opacity: 0.5;
+}
+
+#stories {
+	color: white;
+	background-color: rgb(0, 178, 209);
+	min-height: 400px;
+	width: 100%;
+	font-size: 10vh;
+    text-align: left;
+    padding-left: 0;
+    justify-content: center;
+}
+#stories > div {
+    padding: 16px 40px 16px 40px;
+    margin: 20px; 
+	width: 70%;
+	float: left;
+}
+#stories > div > h2 {
+	margin-bottom: 0px;
+}
+#stories > div > p {
+	font-size: 5vh;
+}
+#stories > div > a:hover {
+	opacity: 0.5;
+}
+
+
+#contact {
+	color: black;
+	background-color: white;
+	min-height: 400px;
+	width: 100%;
+	font-size: 10vh;
+}
+#contact > div {
+    padding: 16px 40px 16px 40px;
+    margin: 20px;
+}
+#contact > div > h2 {
+    padding-bottom: 0;
+    margin: 0;
+}
+#contact > div > p {
+    font-size: 5vh;
+    padding-top: 0px;
+}

@@ -1,0 +1,49 @@
+body > *{
+    font-family: Montserrat, sans-serif;
+}
+
+#header {
+    display: flex;
+    margin: 20px;
+    justify-content: space-evenly;
+    padding: 16px 40px 16px 40px;
+}
+#header > h1 {
+    display: inline;
+    font-size: 15vh;
+    justify-content: center;
+    align-content: center;
+}
+#header > h2 {
+    display: inline;
+    font-size: 13vh;
+    justify-content: center;
+    align-content: center;
+}
+
+#lawdict > h2 {
+    font-size: 5vh;
+    padding-left: 50px;
+}
+
+.stateselection {
+    padding-left: 50px;
+}
+
+#states {
+    font-size: 3vh;
+    font-family: Montserrat, sans-serif;
+}
+
+.go {
+    font-size: 3vh;
+    font-family: Montserrat, sans-serif;
+    background-color: rgb(0, 178, 209);
+    color: white;
+    border: none;
+}
+
+#legality {
+    font-size: 5vh;
+    padding-left: 50px;
+}

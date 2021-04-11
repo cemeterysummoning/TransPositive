@@ -1,0 +1,68 @@
+body {
+    font-family: Montserrat, sans-serif;
+}
+
+#header {
+    display: flex;
+    margin: 20px;
+    justify-content: space-evenly;
+    padding: 16px 40px 16px 40px;
+}
+#header > h1 {
+    display: inline;
+    font-size: 15vh;
+    justify-content: center;
+    align-content: center;
+}
+
+.thumbnail {
+    padding: 20px;
+    box-shadow: 5px 10px 8px #888888;
+}
+.thumbnail h2 {
+    font-size: 7vh;
+    color: rgb(0, 178, 209);
+}
+.thumbnail h3 {
+    font-size: 4vh;
+    color: rgb(245, 48, 219);
+}
+
+.row {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+}
+
+.linkbox {
+    display: grid;
+    max-width: 30%;
+    margin: 0 15px;
+    position: relative;
+}
+
+.linkbox img {
+    position: relative;
+}
+
+.text > .source {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    font-size: 3vh;
+    color: rgb(0, 178, 209);
+    background-color: white;
+    border-radius: 4px;
+    padding: 3px 3px 3px 3px;
+}
+.text > .title {
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    right: 5%;
+    font-size: 2vh;
+    color: rgb(245, 48, 219);
+    background-color: white;
+    border-radius: 4px;
+    padding: 3px 3px 3px 3px;
+}

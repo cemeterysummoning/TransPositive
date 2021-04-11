@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Pronoun Dressing Room</title>
+		<link rel="stylesheet" href="tryoutStyles.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <section id="header">
+            <a href="index.html"><img src="img/transpos - Copy.png" width="50%"></a>
+            <h1>Try it out!</h1>
+        </section>
+        <form class="pronouns">
+            <div class="container">
+                <div>
+                    <label for="name">Preferred Name</label>
+                    <br>
+                    <input type="text" id="name" placeholder="Name here...">
+                </div>
+                <div>
+                    <label for="possessivepronoun">Possessive Pronoun</label>
+                    <br>
+                    <input type="text" id="possessivepronoun" placeholder="e.g. their">
+                </div>
+                <div>
+                    <label for="objectivepronoun">Objective Pronoun</label>
+                    <br>
+                    <input type="text" id="objectivepronoun" placeholder="e.g. them">
+                </div>
+            </div>
+            
+            <input type="submit" id="submit" onclick="revealSentence()">
+        </form>
+
+        <div class="result">
+            <h2 class="sentence">
+                <span id="possessive"></span> name is <span id="preferredname"></span>. I think that it suits <span id="objective"></span>.
+            </h2>
+        </div>
+        <script src="tryout.js"></script>
+    </body>
+</html>

@@ -1,0 +1,49 @@
+body > *{
+    font-family: Montserrat, sans-serif;
+}
+
+#header {
+    display: flex;
+    margin: 20px;
+    justify-content: space-evenly;
+    padding: 16px 40px 16px 40px;
+}
+#header > h1 {
+    display: inline;
+    font-size: 15vh;
+    justify-content: center;
+    align-content: center;
+}
+#header > h2 {
+    display: inline;
+    font-size: 13vh;
+    justify-content: center;
+    align-content: center;
+}
+
+.columnleft {
+    float: left;
+    width: 65%;
+}
+
+.columnright {
+    float: right;
+    width: 30%;
+}
+
+.post {
+    padding: 20px;
+    box-shadow: 5px 10px 8px #888888;
+}
+.author {
+    font-size: 7vh;
+    color: rgb(0, 178, 209);
+}
+.timestamp {
+    font-size: 4vh;
+    color: rgb(245, 48, 219);
+}
+.p {
+    font-size: 1vh;
+    color: black;
+}
